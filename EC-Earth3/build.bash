@@ -33,9 +33,9 @@ thisdir=$(readlink -f $(dirname $BASH_SOURCE))
 
 ### Local/user defaults ###
 
-: ${SVNUSER:=jukka-pekka.keskinen}
-: ${BRANCH:=branches/development/2014/r1902-merge-new-components}
-: ${REVNO:=4608} #leave blank to get the latest
+: ${SVNUSER:=putian.zhou}
+: ${BRANCH:=trunk}
+: ${REVNO:=5801} #leave blank to get the latest
 : ${BLDROOT:=$TMPDIR/ece3}
 : ${INSTALLROOT:=$USERAPPL/ece3}
 : ${RUNROOT:=$WRKDIR}
